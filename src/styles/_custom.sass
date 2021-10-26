@@ -1,0 +1,166 @@
+.banner-principal__img
+  animation-name: swing
+  animation-duration: 3.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes swing
+  0%
+    transform: translatex(0px)    
+  50%
+    transform: translatex(-10px)
+  100%
+    transform: translatex(0px)
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto  
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 30px
+      height: 30px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #BF3976
+      span 
+        color: white
+        font-weight: 700
+        font-size: small
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+      
+    
+    &__number 
+      position: relative
+      margin-right: 0.5rem
+      span 
+        color:#BF3976
+        font-size: 13pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 10px
+      margin-right: 0.65rem
+      margin-top: 4px
+      img 
+        width: 10px
+        vertical-align: middle
+      
+    
+  
+  &__txt 
+    p:first-child,
+    h3:first-child 
+      margin-top: 0px
+
+.bg-img-1
+  background-image: url(../assets/ilustraciones/img3.jpg)
+  margin-inline: -3.2rem
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center 
+
+.bg-img-2
+  background-image: url(../assets/ilustraciones/img20.jpg) !important
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat !important
+  background-size: cover !important
+  background-position: center !important 
+
+.yoyo
+  animation-name: yoyo
+  animation-duration: 3.0s
+  animation-iteration-count: infinite
+  -o-animation-direction: alternate
+
+@keyframes yoyo
+  0%
+    transform: translatey(0px)    
+  50%
+    transform: translatey(-5px)
+  100%
+    transform: translatey(0px)  
+
+.BorTit
+  border-left: 5px solid #529AD9
+  padding: 6px 0px 6px 10px       
+
+.row-t1-color-1
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 9%, rgba(187,56,116,1) 35%, rgba(143,43,88,1) 100%)
+  border-radius: 0px 20px 20px 0px  
+
+.img-m-top
+  margin-top: -28rem !important  
+.text-sup
+  z-index: 2
+
+.row-t1-color-1-movil
+  background: linear-gradient(90deg, rgba(191,57,118,1) 0%, rgba(143,43,88,1) 100%)
+  border-radius: 10px  
+
+.row-top-t1
+  margin-top: 5rem !important
+
+.row-t1-color-2
+  background: linear-gradient(90deg, rgba(234,190,214,1) 0%, rgba(234,190,214,1) 86%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%) 
+.img-m-top-1
+  margin-top: -23.5rem !important  
+
+.row-t1-color-2-movil
+  background-color: #EABED6  
+
+.col-t2-color-1
+  background-color: #BF3976  
+
+.bg-video-color
+  background-color: #FAFAFA !important
+
+.img-m-top-2  
+  margin-top: -23.5rem !important    
+
+.slyder-a__bullets
+  bottom: -20px !important
+
+.bloque-texto-g-1.color-secundario
+  background-color: #339CE9 !important
+.bloque-texto-g-1 
+    position: relative
+    display: flex
+    justify-content: flex-start    
+
+.bloque-texto-g-1__img 
+    width: 50%
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: center
+    background-size: cover 
+
+.bloque-texto-g-1__texto 
+    position: relative
+    width: 60%
+    background-color: rgba(255, 255, 255, 0.95)       
+
+.bloque-texto-g-1__texto * 
+    display: inline    
+
+.m-left
+  left: 50% !important
+@media only screen and (max-width: 992px)
+  .m-left
+    left: 0 !important    
