@@ -74,39 +74,29 @@
         .col-12
           img.img-a.img-t(src='@/assets/ilustraciones/img14.jpg', alt='')
           p.mt-5 #[b Figura 3]
-          p Departamento de desarrollo de colecciones - Nota. https://bit.ly/3ir98gV                    
+          p Departamento de desarrollo de colecciones - Nota. https://bit.ly/3ir98gV  
 
-    .tarjeta.tarjeta--gris.bg-video-color.p-4.mt-5
-      LineaTiempoC.color-primario(text-small)
-        .row.justify-content-center.align-items-center(titulo="1")
-          .col-lg-8
-            .row.justify-content-center.align-items-center(data-aos="fade-right")
-              .col-lg-6
-                .BorTit #[b Video]<br> Desarrollo de patrones de la colección
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. López, I. (2020) 
+    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
+      .col-lg-4
+        .BorTit #[b Video]<br> Desarrollo de patrones de la colección
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/LBwII-TBALA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Nota. López, I. (2020) 
 
-        .row.justify-content-center.align-items-center(titulo="2")
-          .col-lg-8
-            .row.justify-content-center.align-items-center(data-aos="fade-right")
-              .col-lg-6
-                .BorTit #[b Video]<br> Patronaje: parte 1 - transformación básica
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/w79jGSV357A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Eometric. (s.f.) 
-
-        .row.justify-content-center.align-items-center(titulo="3")
-          .col-lg-8
-            .row.justify-content-center.align-items-center(data-aos="fade-right")
-              .col-lg-6
-                .BorTit #[b Video]<br> Patronaje: parte 2 - extracción y preparación del patrón
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/RI7NIWHeab4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Eometric. (2018)          
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=w79jGSV357A" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Patronaje: parte 1 - transformación básica  
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=RI7NIWHeab4" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Patronaje: parte 2 - extracción y preparación del patrón   
         
     separador
     #t_2_3.titulo-segundo(data-aos="fade-right")
@@ -121,13 +111,13 @@
 
     p(data-aos="fade-down").mt-5 Los prototipos se realizan con el fin de tomar decisiones, de mejorar, pulir o definitivamente determinar que lo que se propuso no funciona y es el momento de pensar en algo diferente.
 
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-6
-        .BorTit #[b Video]<br> HOW TO DESIGN A COLLECTION | practical tips and guideline
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/WaF_6aSoUxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Nota. Natalia Dedios. (2020)  
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=WaF_6aSoUxg" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> HOW TO DESIGN A COLLECTION | practical tips and guideline 
 
     separador
     #t_2_4.titulo-segundo(data-aos="fade-right")
@@ -182,27 +172,19 @@
 
         p(data-aos="fade-down") Es en este momento donde se toman las decisiones pertinentes antes de dar paso a la producción, es de anotar que, en el proceso de confección industrial de prendas, los imprevistos generan altos costos, por esto es muy importante revisar en detalle cada prenda y consultar oportunamente al experto para validar el proceso. 
 
-    .tarjeta.tarjeta--azul.bg-img-2.p-4.mt-5
-      SlyderA
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-5
-                .BorTit #[b Video]<br> Confection lean manufacturing
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/CJdTlzDa2n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. SENA-Antioquia. (2015) 
-
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-7
-                .BorTit #[b Video]<br> Conozca una de las empresas de confección más importantes de Colombia
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/7Bfnic66Rzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Noticias Caracol. (2019)  
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=CJdTlzDa2n4&t=2s" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Confection lean manufacturing
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=7Bfnic66Rzw" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Conozca una de las empresas de confección más importantes de Colombia  
 
     separador
     #t_2_6.titulo-segundo(data-aos="fade-right")
@@ -224,47 +206,33 @@
 
     p(data-aos="fade-down").mt-5 Las observaciones o recomendaciones se deben anotar para luego realizar las correcciones pertinentes, este proceso se debe planear con tiempo y con las personas indicadas, para que las decisiones que allí se tomen sean efectivas, haciendo posible continuar con el proceso de producción y distribución sin contratiempos.
 
-    .tarjeta.tarjeta--azul.bg-img-2.p-4.mt-5
-      SlyderA
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-4
-                .BorTit #[b Video]<br> Fabricato PROTECTIVE WEAR
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/7zJ1t5S2CoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Fabricato S.A. (2020) 
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://youtu.be/7zJ1t5S2CoY" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Fabricato PROTECTIVE WEAR
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="http://canvas.pantone.com/gallery/76156783/FABRICATO-Diseno-de-Stand" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> FABRICATO /Diseño de Stand    
 
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-4
-                .BorTit #[b Video]<br> FABRICATO /Diseño de Stand
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Pantone Canvas. (2020)
-
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-7
-                .BorTit #[b Video]<br> Presentación de la colección. Marca “IRREGULAR” 
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Rivera, K. (2020)
-
-        .row.justify-content-center.align-items-center
-          .col-lg-10
-            .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-              .col-lg-5
-                .BorTit #[b Video]<br> Presentación de la colección. Marca “Mandrágora”
-            figure.mt-5
-              .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Nota. Osorio, N. (2020)                
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=x4aKI59_4Xo" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Presentación de la colección. Marca “IRREGULAR” 
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=g8pc9aYHW3I" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Presentación de la colección. Marca “Mandrágora”                                            
 </template>
 
 <script>

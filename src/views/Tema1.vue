@@ -31,7 +31,7 @@
         .BorTit #[b Anexo A Video]<br> Concepto de la Colección. Marca “AMARILLA”
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kAhMY79mPio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Nota. Muñoz, L. (2020)  
     
     separador
@@ -49,15 +49,14 @@
     .row.justify-content-start.align-items-center
       .col-lg-11.d-block.d-lg-none.row-t1-color-1-movil.p-5
         p(data-aos="fade-down").text-white.mb-0 Este nos muestra los resultados definitivos en cuanto a la carta de color y su propuesta para llevarla a las prendas y complementos, teñidos, estampación, bordados y accesorios; las formas determinan las líneas que caracterizarán la colección en sus cortes, silueta y estructura de las piezas. Realizar prototipos permite visualizar resultados previos a la construcción de las prendas, se construyen con todas las ideas innovadoras y creativas que marcarán la diferencia de los nuevos desarrollos, la mezcla de materiales y complementos le deben aportar valor a la colección; no es pertinente utilizar elementos (materiales o complementos) seleccionados a última hora ya que pueden alterar la estética, coherencia y armonía de la colección.  
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-4
-        .BorTit #[b Anexo B Video]<br> Cuaderno de diseño. Marca “Laicks”
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
-      figcaption Nota. Ramírez, D. (2020)  
 
-
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=jcR-M26H0rY" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Anexo B Video]<br> Cuaderno de diseño. Marca “Laicks”
     separador
     #t_1_3.titulo-segundo(data-aos="fade-right")
       h2 1.3  Plano de la colección: visión planimétrica 
@@ -66,13 +65,14 @@
     p.mt-5(data-aos="fade-down") Definir el número de piezas que contendrá la colección permite tener claridad de varios aspectos en cuanto a volumen de la colección, tipo de prendas que la componen, armar outfit completos, realizando una trazabilidad cruzada que muestre que tan móvil es cada pieza dentro de la misma colección. Es importante realizar este juego para visualizar la versatilidad de las prendas.
 
     p(data-aos="fade-down") La colección, se puede armar por grupos, líneas, color, silueta e incluso los mismos complementos necesitan ser planeados dentro del proceso, para no caer en excesos o carencia, un buen complemento bien ubicado puede llegar a salvar una prenda. El control de las variables se refiere a que todo lo que se necesita si sea posible y de fácil consecución. En cuanto al manejo de los proveedores, es muy importante verificar las existencias o tiempos de fabricación antes de utilizarlas en las prendas, el registro de nombres comerciales o referencias es fundamental, los tiempos de entrega y de fabricación tanto de insumos como de textiles, así como, cuando se planean procesos de teñido, lavandería y acabados (bordado, pedrería, herrajes, estampados y manualidades, entre otros) visualizando el proceso previo a su fabricación y contemplando el tiempo que cada uno de los procesos tomará a fin de optimizar la logística de la colección.     
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-6
-        .BorTit #[b Video]<br> Fashion Design Tutorial: Developing and Merchandising a Collection.
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2tboY-iZsmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Nota. Zoe Hong. (2018)    
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=2tboY-iZsmY" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> Fashion Design Tutorial: Developing and Merchandising a Collection.
 
     separador
     #t_1_4.titulo-segundo(data-aos="fade-right")
@@ -94,14 +94,13 @@
 
         p.mb-0 Las opiniones al respecto son importantes, pero es relevante que las personas encargadas de los desarrollos argumenten y sustenten desde el concepto, la marca y el usuario todo lo que se está presentando. Es muy común y fácil tumbar una creación teniendo en cuenta que todo lo nuevo genera desconfianza e inseguridad, pero con un buen argumento todo se vale y se puede defender; este proceso es crucial porque es aquí donde se intercambia la información de los diferentes departamentos de la empresa, en especial el área comercial que es la que conoce el destino de los productos y al consumidor, recordemos que este siempre espera algo nuevo que motive o satisfaga sus necesidades emergentes. 
 
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-6
-        .BorTit #[b Video]<br> What Does It Take to Be a Fashion Designer?
-    figure.mt-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/367veujwj_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Nota. KQED Art School. (2016) 
-
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=367veujwj_Y&t=1s" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p #[b Video]<br> What Does It Take to Be a Fashion Designer?
 </template>
 
 <script>
