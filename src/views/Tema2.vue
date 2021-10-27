@@ -218,7 +218,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p #[b Video]<br> FABRICATO /Diseño de Stand    
+            p #[b Página web]<br> FABRICATO /Diseño de Stand    
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-5(data-aos="fade-left")
