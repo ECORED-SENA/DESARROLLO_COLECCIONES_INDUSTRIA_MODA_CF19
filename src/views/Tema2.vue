@@ -88,13 +88,13 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=w79jGSV357A" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Patronaje: parte 1 - transformación básica  
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=RI7NIWHeab4" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Patronaje: parte 2 - extracción y preparación del patrón   
         
@@ -115,7 +115,7 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=WaF_6aSoUxg" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> HOW TO DESIGN A COLLECTION | practical tips and guideline 
 
@@ -176,13 +176,13 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=CJdTlzDa2n4&t=2s" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Confection lean manufacturing
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=7Bfnic66Rzw" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Conozca una de las empresas de confección más importantes de Colombia  
 
@@ -210,7 +210,7 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://youtu.be/7zJ1t5S2CoY" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Fabricato PROTECTIVE WEAR
       .col-lg-5(data-aos="fade-left")
@@ -224,13 +224,13 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=x4aKI59_4Xo" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Presentación de la colección. Marca “IRREGULAR” 
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=g8pc9aYHW3I" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Presentación de la colección. Marca “Mandrágora”                                            
 </template>

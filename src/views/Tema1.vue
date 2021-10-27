@@ -54,7 +54,7 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=jcR-M26H0rY" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Anexo B Video]<br> Cuaderno de diseño. Marca “Laicks”
     separador
@@ -70,7 +70,7 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=2tboY-iZsmY" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Fashion Design Tutorial: Developing and Merchandising a Collection.
 
@@ -98,7 +98,7 @@
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=367veujwj_Y&t=1s" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> What Does It Take to Be a Fashion Designer?
 </template>
