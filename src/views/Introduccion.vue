@@ -7,7 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-
+    p(data-aos="fade-down").mb-0 La aplicación de todos los conocimientos, habilidades y destrezas adquiridas se ve reflejada en la colección, este es el momento donde se demuestra y a la vez se adquiere experiencia al exponer de una manera cohesiva un producto comercial, acorde al espíritu del momento, creativo y novedoso, con las características de la marca, vestibilidad apropiadas al usuario final y la ocasión de uso, el cual será validado en un evento interno con la participación del personal de las diferentes áreas de la empresa que integran el comité de aprobación de la colección.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="fade-right")
       .bloque-texto-g__img.m-left(
         :style="{'background-image': `url(${require('@/assets/ilustraciones/img1.jpg')})`}"
