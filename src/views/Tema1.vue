@@ -26,10 +26,8 @@
           .col-lg-6
             img.img-a.img-t.yoyo.my-3(data-aos="fade-left")(src='@/assets/ilustraciones/img4.png', alt='')
 
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-4
-        .BorTit #[b Anexo A Video]<br> Concepto de la Colección. Marca “AMARILLA”
-    figure.mt-5
+    .BorTit.mt-5 #[b Anexo A Video]<br> Concepto de la Colección. Marca “AMARILLA”
+    figure.mt-3
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/kAhMY79mPio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Nota. Muñoz, L. (2020)  

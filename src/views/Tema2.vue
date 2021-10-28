@@ -62,24 +62,22 @@
     SlyderE(indicadores="derecha").mt-5
       .row.justify-content-center.align-items-center
         .col-12
-          img.img-a.img-t(src='@/assets/ilustraciones/img12.jpg', alt='')
-          p.mt-5 #[b Figura 1]
-          p Patronaje manual - Nota. www.audaces.com
+          .BorTit #[b Figura 1] <br> Patronaje manual          
+          img.img-a.img-t.mt-3(src='@/assets/ilustraciones/img12.jpg', alt='')
+          figcaption.mt-3 Nota. www.audaces.com
       .row.justify-content-center.align-items-center
         .col-12
-          img.img-a.img-t(src='@/assets/ilustraciones/img13.jpg', alt='')
-          p.mt-5 #[b Figura 2]
-          p Patronaje digital - Nota. https://bit.ly/3g0sd8a
+          .BorTit #[b Figura 2] <br> Patronaje digital         
+          img.img-a.img-t.mt-3(src='@/assets/ilustraciones/img13.jpg', alt='')
+          figcaption.mt-3 Nota. https://bit.ly/3g0sd8a
       .row.justify-content-center.align-items-center
         .col-12
-          img.img-a.img-t(src='@/assets/ilustraciones/img14.jpg', alt='')
-          p.mt-5 #[b Figura 3]
-          p Departamento de desarrollo de colecciones - Nota. https://bit.ly/3ir98gV  
+          .BorTit #[b Figura 3]<br> Departamento de desarrollo de colecciones         
+          img.img-a.img-t.mt-3(src='@/assets/ilustraciones/img14.jpg', alt='')
+          figcaption.mt-3 Nota. https://bit.ly/3ir98gV  
 
-    .row.justify-content-center.align-items-center.mt-5(data-aos="fade-right")
-      .col-lg-4
-        .BorTit #[b Video]<br> Desarrollo de patrones de la colección
-    figure.mt-5
+    .BorTit.mt-5 #[b Video]<br> Desarrollo de patrones de la colección
+    figure.mt-3
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/LBwII-TBALA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Nota. López, I. (2020) 
@@ -132,9 +130,10 @@
             p.mb-0 Las irregularidades de moda normalmente establecen las diferencias en el precio del producto que ofrecen al mercado, el cual entra a competir con otros de su misma categoría, lo que quiere decir, que hay muchos aspectos que se definen desde la marca y el público al que está dirigido el producto.<br><br>En el departamento de desarrollo de nuevos productos para el sector moda, deben existir políticas que permitan definir cuáles son los alcances que se tienen en cuanto a los precios de las materias primas que se pueden comprar para los nuevos desarrollos, esto pensando que un material por fuera de estos rangos puede llegar afectar el precio final del producto. Otros aspectos bien importantes a tener en cuenta para el costo del producto son:     
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-10(data-aos="fade-down")
-        img.img-a.img-t(src='@/assets/ilustraciones/img17.svg', alt='') 
-        p(data-aos="fade-down").mt-5 cuenta al personal del departamento de desarrollo de nuevos productos, pero realmente los que definen el costo final son los comités de evaluación del área de costos generales integrados por las diferentes áreas de la empresa.
+      .col-lg-12(data-aos="fade-down")
+        img(src='@/assets/ilustraciones/img17.svg', alt='') 
+        p(data-aos="fade-down").mt-5 El precio está determinado básicamente por los materiales que integran la prenda, los tiempos en producción, acabados y procesos, obviamente esta es la parte que le corresponde tener en cuenta al personal del departamento de desarrollo de nuevos productos, pero realmente los que definen el costo final son los comités de evaluación del área de costos generales integrados por las diferentes áreas de la empresa.
+
     .row.justify-content-end.align-items-center.mt-5
       .col-lg-5(data-aos="fade-right")
         a.anexo.mb-4.mb-lg-0(href="https://audaces.com/es/como-simular-los-costos-de-produccion-desde-la-etapa-de-creacion/" target="_blank")
@@ -222,17 +221,25 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-5(data-aos="fade-left")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=H0DTP58s3io" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-youtube.svg")
+          .anexo__texto
+            p #[b Video]<br> Presentación de la colección. Marca “DANIEL ECHEVERRY”  
+      .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=x4aKI59_4Xo" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
             p #[b Video]<br> Presentación de la colección. Marca “IRREGULAR” 
+
+    .row.justify-content-center.align-items-center.mt-5            
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=g8pc9aYHW3I" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-youtube.svg")
           .anexo__texto
-            p #[b Video]<br> Presentación de la colección. Marca “Mandrágora”                                            
+            p #[b Video]<br> Presentación de la colección. Marca “Mandrágora” 
 </template>
 
 <script>

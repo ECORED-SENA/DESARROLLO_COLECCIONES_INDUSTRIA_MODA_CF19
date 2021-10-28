@@ -288,7 +288,7 @@ export default {
     },
     {
       texto:
-        'natalia dedios. (2020, 8 de enero). HOW TO DESIGN A COLLECTION | practical tips and guidelines. [video]. Youtube. ',
+        'Natalia dedios. (2020, 8 de enero). HOW TO DESIGN A COLLECTION | practical tips and guidelines. [video]. Youtube. ',
       tipo: 'Video',
       link: 'https://youtu.be/WaF_6aSoUxg',
     },
@@ -415,6 +415,23 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Edward Leonardo Pico Cabra',
         cargo: 'Desarrollo front-end',
         centro:
@@ -427,7 +444,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
